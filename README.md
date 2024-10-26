@@ -1,20 +1,42 @@
-************************************ Dry language ***************************************
+************************************ Dry++ Language ***************************************
 
-V 1.0
+Version 1.0
 
-The language is written in python, compiled to c++ then ran. It's quite lacking performance-wise but who cares
-im just having fun with it. i might decide to have it compiled to assembly but only time will tell...
+Welcome to Dry++, a fun and experimental programming language! This language is written in Python, compiled to C++, and then executed. While performance may not be its strongest suit, the goal here is to enjoy the process of coding and experimentation. Who knows? I might even explore compiling to assembly in the future, but that’s a story for another time!
 
-VARIABLES::
-    > variables work similar to c++
-    > you can't declare variables without assigning it a value so... sorry
-    > variables have data types which are as follows:
-            >> num
-            >> str
-    > assign variables as so:
-            >> num version -> 1;
-            >> the first keyword is the data type. the second is the identifier 
-            >> instead of an equals i use a "->"
-            >>
-            >> str text -> "dry++ is the best";
-            >> thats quite true..
+VARIABLES:
+Similar to C++:
+Variables in Dry++ function similarly to those in C++. You’ll feel right at home if you’re familiar with C++ syntax!
+
+Assignment Required:
+You cannot declare a variable without assigning it a value. Sorry, not sorry!
+
+Data Types:
+Variables in Dry++ have specific data types, which are as follows:
+
+num: Represents numerical values.
+str: Represents string values.
+Variable Assignment:
+Assign variables using the following syntax:
+
+plaintext
+num version -> 1;
+The first keyword indicates the data type.
+The second part is the identifier (name of the variable).
+Instead of using the traditional equals sign (=), Dry++ utilizes the arrow (->).
+Example:
+
+plaintext
+str text -> "dry++ is the best";
+And honestly, that statement holds true!
+INPUT AND OUTPUT:
+Output to Console: Use the out(value) function to display messages to the console:
+
+plaintext
+out("Hello, world!");
+Input from User: Capture user input with the in(variable) function:
+
+plaintext
+in(userInput);
+CONCLUSION:
+Dry++ is designed for fun and experimentation, making it a great tool for those looking to play with programming concepts. Dive in, have a blast coding, and don’t hesitate to explore the possibilities!
